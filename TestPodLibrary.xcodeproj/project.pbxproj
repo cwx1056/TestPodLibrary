@@ -11,10 +11,6 @@
 		D349E4A21E146AF600A17CE0 /* TestPodLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D349E4981E146AF600A17CE0 /* TestPodLibrary.framework */; };
 		D349E4A71E146AF600A17CE0 /* TestPodLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349E4A61E146AF600A17CE0 /* TestPodLibraryTests.swift */; };
 		D349E4A91E146AF600A17CE0 /* TestPodLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = D349E49B1E146AF600A17CE0 /* TestPodLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D349E4B31E146DA500A17CE0 /* NARequestGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349E4B21E146DA500A17CE0 /* NARequestGenerator.swift */; };
-		D349E4B51E146DCC00A17CE0 /* NAAppContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349E4B41E146DCC00A17CE0 /* NAAppContext.swift */; };
-		D349E4B71E146DF400A17CE0 /* NAServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349E4B61E146DF400A17CE0 /* NAServiceFactory.swift */; };
-		D349E4B91E146E5B00A17CE0 /* NAService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D349E4B81E146E5B00A17CE0 /* NAService.swift */; };
 		E5AACBF23A9BC50503AFE70E /* Pods_TestPodLibraryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374C2FD99DAC7BDD2A080611 /* Pods_TestPodLibraryTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,10 +35,6 @@
 		D349E4A11E146AF600A17CE0 /* TestPodLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPodLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D349E4A61E146AF600A17CE0 /* TestPodLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPodLibraryTests.swift; sourceTree = "<group>"; };
 		D349E4A81E146AF600A17CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D349E4B21E146DA500A17CE0 /* NARequestGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NARequestGenerator.swift; sourceTree = "<group>"; };
-		D349E4B41E146DCC00A17CE0 /* NAAppContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NAAppContext.swift; sourceTree = "<group>"; };
-		D349E4B61E146DF400A17CE0 /* NAServiceFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NAServiceFactory.swift; sourceTree = "<group>"; };
-		D349E4B81E146E5B00A17CE0 /* NAService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NAService.swift; sourceTree = "<group>"; };
 		E9B7F11478F41F83B2A97E4D /* Pods_TestPodLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestPodLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37161C683350E461D74E469 /* Pods-TestPodLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPodLibrary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestPodLibrary/Pods-TestPodLibrary.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,10 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				D349E49B1E146AF600A17CE0 /* TestPodLibrary.h */,
-				D349E4B21E146DA500A17CE0 /* NARequestGenerator.swift */,
-				D349E4B41E146DCC00A17CE0 /* NAAppContext.swift */,
-				D349E4B61E146DF400A17CE0 /* NAServiceFactory.swift */,
-				D349E4B81E146E5B00A17CE0 /* NAService.swift */,
 				D349E49C1E146AF600A17CE0 /* Info.plist */,
 			);
 			path = TestPodLibrary;
@@ -326,10 +314,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D349E4B51E146DCC00A17CE0 /* NAAppContext.swift in Sources */,
-				D349E4B31E146DA500A17CE0 /* NARequestGenerator.swift in Sources */,
-				D349E4B91E146E5B00A17CE0 /* NAService.swift in Sources */,
-				D349E4B71E146DF400A17CE0 /* NAServiceFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,7 +482,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CFEC26B9CAA39CF8EEA97585 /* Pods-TestPodLibraryTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = K3JG8YWZB4;
 				INFOPLIST_FILE = TestPodLibraryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -512,7 +495,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0876668DD0A863400BA982CD /* Pods-TestPodLibraryTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = K3JG8YWZB4;
 				INFOPLIST_FILE = TestPodLibraryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
